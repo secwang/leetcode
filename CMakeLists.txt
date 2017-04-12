@@ -5,7 +5,7 @@ set(CMAKE_CXX_STANDARD 11)
 set(COMMON_INCLUDES  ${PROJECT_SOURCE_DIR}/include)
 
 
-file(GLOB TEST_SOURCES ${PROJECT_SOURCE_DIR}/test/*.cpp)
+file(GLOB TEST_SOURCES ${PROJECT_SOURCE_DIR}/tests/*.cpp)
 
 include_directories(${COMMON_INCLUDES})
 
